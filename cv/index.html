@@ -25,152 +25,198 @@
         font-style: italic;
       }
     </style>
+
+    <script>
+      function printDiv(divName) {
+        var printContents = document.getElementById(divName).innerHTML;
+        var originalContents = document.body.innerHTML;
+
+        document.body.innerHTML = printContents;
+
+        window.print();
+
+        document.body.innerHTML = originalContents;
+      }
+    </script>
   </head>
   <body>
-    <h1>
-      MD. EJHAR UDDIN NOMANI
-      <img
+    <div style="padding: 10px; text-align: center">
+      <a
+        href="../protfolio_site/index.html"
         style="
-          height: 165px;
-          float: right;
-          margin-top: -5px;
-          border: #eee 8px solid;
+          text-decoration: none;
+          background-color: -internal-light-dark(
+            rgb(239, 239, 239),
+            rgb(59, 59, 59)
+          );
+          box-sizing: border-box;
+          margin: 0em;
+          font: 400 13.3333px Arial;
+          padding: 1px 6px;
+          border-width: 2px;
+          border-style: outset;
+          border-color: -internal-light-dark(
+            rgb(118, 118, 118),
+            rgb(133, 133, 133)
+          );
+          border-image: initial;
         "
-        src="rejvi.jpg"
-      />
-    </h1>
-    <p>Gulshan 1, Dhaka, Bangladesh</p>
-    <p>Cell: +8801734795488</p>
-    <p>Email: rejvi.nomani@gamil.com</p>
-    <br />
-    <h3 class="headingh3">CARRER OBJECTIVE:</h3>
+        >Home</a
+      >
+      |
+      <button onclick="printDiv('printMe')">Print CV</button>
+    </div>
+    <div id="printMe">
+      <h1>
+        MD. EJHAR UDDIN NOMANI
+        <img
+          style="
+            height: 165px;
+            float: right;
+            margin-top: -5px;
+            border: #eee 8px solid;
+          "
+          src="rejvi.jpg"
+        />
+      </h1>
+      <p>Gulshan 1, Dhaka, Bangladesh</p>
+      <p>Cell: +8801734795488</p>
+      <p>Email: rejvi.nomani@gamil.com</p>
+      <br />
+      <h3 class="headingh3">CARRER OBJECTIVE:</h3>
 
-    <p>
-      Results-oriented, resourceful and problem-solving web developer
-      professional specializing in large scale web design and development for a
-      wide variety of companies. High level of involvement in the advancement of
-      the industry and adherence to best practice. Enjoying making presentations
-      that contribute to company goals through problem resolution, team
-      building, and organizational development.
-    </p>
-    <h3 class="headingh3">SKILL SUMMARY:</h3>
+      <p>
+        Results-oriented, resourceful and problem-solving web developer
+        professional specializing in large scale web design and development for
+        a wide variety of companies. High level of involvement in the
+        advancement of the industry and adherence to best practice. Enjoying
+        making presentations that contribute to company goals through problem
+        resolution, team building, and organizational development.
+      </p>
+      <h3 class="headingh3">SKILL SUMMARY:</h3>
 
-    <p>
-      As a web application developer, I am self-motivated and goal oriented.
-      Have ability to follow through with project from inception to completion
-      using analytical and problem-solving skills. Expert on Laravel, PHP,
-      JavaScript, HTML5, jQuery, Vue.js, MySQL CSS3, Bootstrap and Smarty PHP
-      Template Engine. Strong background in project management and customer
-      relations. Enjoy working on my own initiative or in a team, love to take
-      challenge.
-    </p>
-    <h3 class="headingh3">TECHNICAL QUALIFICATIONS:</h3>
+      <p>
+        As a web application developer, I am self-motivated and goal oriented.
+        Have ability to follow through with project from inception to completion
+        using analytical and problem-solving skills. Expert on Laravel, PHP,
+        JavaScript, HTML5, jQuery, Vue.js, MySQL CSS3, Bootstrap and Smarty PHP
+        Template Engine. Strong background in project management and customer
+        relations. Enjoy working on my own initiative or in a team, love to take
+        challenge.
+      </p>
+      <h3 class="headingh3">TECHNICAL QUALIFICATIONS:</h3>
 
-    <p>
-      My key technical qualifications and are of concentrations are as follows:
-    </p>
-    <p><b>Programming Language:</b> PHP 7.4 (OOP with MVC, PDO)</p>
-    <p>
-      <b>Designing and Other Languages:</b> HTML, HTML5, CSS, JavaScript, AJAX,
-      jQuery, Vue.js, Smarty PHP Template Engine
-    </p>
-    <p><b>Data/Database Management:</b> MySQL</p>
-    <p><b>Frameworks:</b> Laravel</p>
-    <p>
-      <b>Operating System & Application Software :</b> Linux (CentOS, Ubuntu),
-      MacOS, Windows, Abode Photoshop, PhpStorm
-    </p>
+      <p>
+        My key technical qualifications and are of concentrations are as
+        follows:
+      </p>
+      <p><b>Programming Language:</b> PHP 7.4 (OOP with MVC, PDO)</p>
+      <p>
+        <b>Designing and Other Languages:</b> HTML, HTML5, CSS, JavaScript,
+        AJAX, jQuery, Vue.js, Smarty PHP Template Engine
+      </p>
+      <p><b>Data/Database Management:</b> MySQL</p>
+      <p><b>Frameworks:</b> Laravel</p>
+      <p>
+        <b>Operating System & Application Software :</b> Linux (CentOS, Ubuntu),
+        MacOS, Windows, Abode Photoshop, PhpStorm
+      </p>
 
-    <h3 class="headingh3">WORK EXPERIENCE:</h3>
-    <table>
-      <tbody>
-        <tr>
-          <td style="border: none" width="50%">
-            <p><strong>Software Engineer, SSL Wireless</strong></p>
-            <p><b>Period:</b> June 2019 to Present</p>
-            <p><b>Location:</b> Eskaton Road, Dhaka, Bangladesh</p>
-          </td>
-          <td style="border: none" width="50%">
-            <p>
-              <strong
-                >Software Engineer (R&D), Digital Business, ADN Telecom
-                Limited</strong
-              >
-            </p>
+      <h3 class="headingh3">WORK EXPERIENCE:</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td style="border: none" width="50%">
+              <p><strong>Software Engineer, SSL Wireless</strong></p>
+              <p><b>Period:</b> June 2019 to Present</p>
+              <p><b>Location:</b> Eskaton Road, Dhaka, Bangladesh</p>
+            </td>
+            <td style="border: none" width="50%">
+              <p>
+                <strong
+                  >Software Engineer (R&D), Digital Business, ADN Telecom
+                  Limited</strong
+                >
+              </p>
 
-            <p><b>Period:</b> July 2018 to June 2019</p>
-            <p><b>Location:</b> Gulshan 1, Dhaka, Bangladesh</p>
-          </td>
-        </tr>
-        <tr>
-          <td style="border: none" width="50%">
-            <p>
-              <strong>Software Engineer, PeopleNTech (Software) Limited</strong>
-            </p>
-            <p><b>Period:</b> February 2015 to June 2018</p>
-            <p><b>Location:</b> Green Road, Panthapath, Dhaka, Bangladesh</p>
-          </td>
-          <td style="border: none" width="50%"></td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 class="headingh3">EDUCATIONAL QUALIFICATIONS:</h3>
-    <table>
-      <tbody>
-        <tr>
-          <td style="border: none" width="50%">
-            <p><strong>Diploma in Engineering (4 Year)</strong></p>
-            <p><b>Institution :</b> Feni Polytechnic Institute</p>
-            <p><b>Passing Year : </b> 2012</p>
-          </td>
-          <td style="border: none" width="50%">
-            <p>
-              <strong>B.Sc. in Computer Science & Engineering (4 Year)</strong>
-            </p>
-            <p><b>Institution :</b> City University, Bangladesh</p>
-            <p><b>Status :</b> 2021 Fall</p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <h3 class="headingh3">PERSONAL INFORMATION:</h3>
+              <p><b>Period:</b> July 2018 to June 2019</p>
+              <p><b>Location:</b> Gulshan 1, Dhaka, Bangladesh</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border: none" width="50%">
+              <p>
+                <strong
+                  >Software Engineer, PeopleNTech (Software) Limited</strong
+                >
+              </p>
+              <p><b>Period:</b> February 2015 to June 2018</p>
+              <p><b>Location:</b> Green Road, Panthapath, Dhaka, Bangladesh</p>
+            </td>
+            <td style="border: none" width="50%"></td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="headingh3">EDUCATIONAL QUALIFICATIONS:</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td style="border: none" width="50%">
+              <p><strong>Diploma in Engineering (4 Year)</strong></p>
+              <p><b>Institution :</b> Feni Polytechnic Institute</p>
+              <p><b>Passing Year : </b> 2012</p>
+            </td>
+            <td style="border: none" width="50%">
+              <p>
+                <strong
+                  >B.Sc. in Computer Science & Engineering (4 Year)</strong
+                >
+              </p>
+              <p><b>Institution :</b> City University, Bangladesh</p>
+              <p><b>Status :</b> 2021 Fall</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="headingh3">PERSONAL INFORMATION:</h3>
 
-    <table>
-      <tbody>
-        <tr>
-          <td>Father's Name :</td>
-          <td>Golam Rasul Nomani</td>
-        </tr>
-        <tr>
-          <td>Mother's Name :</td>
-          <td>Ayesha Akhter</td>
-        </tr>
-        <tr>
-          <td>Date of Birth :</td>
-          <td>20th October</td>
-        </tr>
-        <tr>
-          <td>Nationality :</td>
-          <td>Bangladeshi (by birth)</td>
-        </tr>
-        <tr>
-          <td>Permanent Address :</td>
-          <td>
-            Nomani House, Village: Char Ganesh, P.O: Sonagazi, District: Feni
-          </td>
-        </tr>
-      </tbody>
-    </table>
+      <table>
+        <tbody>
+          <tr>
+            <td>Father's Name :</td>
+            <td>Golam Rasul Nomani</td>
+          </tr>
+          <tr>
+            <td>Mother's Name :</td>
+            <td>Ayesha Akhter</td>
+          </tr>
+          <tr>
+            <td>Date of Birth :</td>
+            <td>20th October</td>
+          </tr>
+          <tr>
+            <td>Nationality :</td>
+            <td>Bangladeshi (by birth)</td>
+          </tr>
+          <tr>
+            <td>Permanent Address :</td>
+            <td>
+              Nomani House, Village: Char Ganesh, P.O: Sonagazi, District: Feni
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-    <h3 class="headingh3">DECLARATION:</h3>
+      <h3 class="headingh3">DECLARATION:</h3>
 
-    I do hereby declare that the above information is true and correct to the
-    best of my Knowledge.
-    <br />
-    <br />
-    _____________________________
-    <br />MD.EJHAR UDDIN NOMANI
+      I do hereby declare that the above information is true and correct to the
+      best of my Knowledge.
+      <br />
+      <br />
+      _____________________________
+      <br />MD.EJHAR UDDIN NOMANI
 
-    <br />
+      <br />
+    </div>
   </body>
 </html>

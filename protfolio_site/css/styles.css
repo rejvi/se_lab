@@ -1,0 +1,152 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+body {
+  font: 76% arial, sans-serif;
+  text-align: center;
+  font-size: small;
+}
+p {
+  margin: 0 10px 10px;
+  text-align: justify;
+}
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: #000000;
+}
+div#header {
+  /* background-color: #f3f2ed; */
+  /* background-color: #d8daec; */
+  background-color: aliceblue;
+  height: 80px;
+}
+div#header h1 {
+  line-height: 50px;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #477094;
+}
+div#container {
+  text-align: left;
+  box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+}
+div#content p {
+  line-height: 1.4;
+  font-family: roboto;
+  letter-spacing: 0.3px;
+}
+div#content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 10px;
+  margin: 0px;
+}
+div#navigation {
+  height: 500px;
+  background: #f6f0e0;
+  background-color: #e6e6e6;
+}
+div#navigation ul {
+  margin: 10px 0;
+  padding: 0;
+  list-style-type: none;
+}
+div#navigation li {
+  margin-bottom: 5px;
+  padding: 10px;
+  background: #eeeeee;
+}
+div#navigation li:hover {
+  background: #dddddd !important;
+  color: #4397e0;
+}
+div#navigation li a:hover {
+  color: #4397e0;
+}
+.active {
+  background-color: #d8daec !important;
+}
+
+div#footer {
+  background: #bfbd93;
+  background-color: aliceblue;
+}
+div#footer p {
+  margin: 0;
+  padding: 5px 10px;
+  text-align: center !important;
+}
+div#container {
+  width: 700px;
+  margin: 0 auto;
+  background-color: white;
+}
+div#content {
+  float: right;
+  width: 500px;
+}
+div#navigation {
+  float: left;
+  width: 200px;
+}
+div#extra {
+  float: left;
+  clear: left;
+  width: 200px;
+}
+div#footer {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+.divtable {
+  display: table !important;
+  width: 100%;
+}
+.divtablerow {
+  display: table-row !important;
+}
+.divtablecell {
+  display: table-cell !important;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffb400;
+}
+.btn:hover {
+  background-color: #d8daec;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+.sendbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sendbtn:hover {
+  background-color: #45a049;
+}
